@@ -1,0 +1,56 @@
+.create-board-form__overlay
+  position: fixed
+  left: 0
+  top: 0
+  right: 0
+  bottom: 0
+  z-index: 99
+  
+  display: flex
+  align-items: center
+  justify-content: center
+
+  background: rgba(#000000, .6)
+  box-shadow: 0 .4rem 1.5rem rgba(#000000, .1)
+  
+.create-board-form
+  position: relative
+  width: 100% 
+  max-width: 360px
+  padding: 3rem
+
+  background-color: #FFFFFF
+  border-radius: 1rem
+
+  z-index: 100
+
+  &__input
+    margin-bottom: 1rem
+  
+  &__textarea
+    margin-bottom: 1rem
+
+  &__footer
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+  &__btn
+    width: 100%
+
+  &__close
+    position: absolute
+    top: -1.5rem
+    right: -1.5rem
+
+    max-height: 3.5rem
+    max-width: 3.5rem
+    padding: 0.5rem
+
+    background-color: #FF3838
+    border-radius: 1rem
+    transition: .2s all ease-in-out
+    cursor: pointer
+
+    &:hover
+      background-color: lighten(#FF3838, 10%)

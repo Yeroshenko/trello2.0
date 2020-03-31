@@ -1,10 +1,12 @@
 import { combineReducers, createStore, applyMiddleware, compose } from 'redux'
 import thunkMiddleware from 'redux-thunk'
+import { reducer as formReducer } from 'redux-form'
 
-import boardsReducer from './boards-reducer'
+import allBoardsReducer from './all-boards-reducer'
 
 const reducers = combineReducers({ 
-  boardsReducer: boardsReducer
+  allBoardsReducer: allBoardsReducer,
+  form: formReducer
 })
 
 const composeEnhancers =

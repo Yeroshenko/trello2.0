@@ -1,10 +1,10 @@
 {
   "allBoards": {
     "0": {
-      "title": "Work Group",
+      "title": "Work",
       "boards": [
         {"boardTitle": "Board Title 1", 
-          "boardSubtitle": "Board Subtitle 1",
+          "boardDescription": "Board Subtitle 1",
           "cards": [
             {"id": 1, "text": "карточка 1"},
             {"id": 2, "text": "карточка 2"},
@@ -12,7 +12,7 @@
           ]
         },
         {"boardTitle": "Board Title 2", 
-          "boardSubtitle": "Board Subtitle 2",
+          "boardDescription": "Board Subtitle 2",
           "cards": [
             {"id": 1, "text": "карточка 1"},
             {"id": 2, "text": "карточка 2"},
@@ -20,7 +20,7 @@
           ]
         },
         {"boardTitle": "Board Title 3", 
-          "boardSubtitle": "Board Subtitle 3",
+          "boardDescription": "Board Subtitle 3",
           "cards": [
             {"id": 1, "text": "карточка 1"},
             {"id": 2, "text": "карточка 2"},
@@ -29,11 +29,11 @@
         }
       ]
     },
-    "Learning": {
-      "title": "Work Group",
+    "1": {
+      "title": "Learning",
       "boards": [
         {"boardTitle": "Board Title 4", 
-          "boardSubtitle": "Board Subtitle 4",
+          "boardDescription": "Board Subtitle 4",
           "cards": [
             {"id": 1, "text": "карточка 1"},
             {"id": 2, "text": "карточка 2"},
@@ -41,7 +41,7 @@
           ]
         },
         {"boardTitle": "Board Title 5", 
-          "boardSubtitle": "Board Subtitle 5",
+          "boardDescription": "Board Subtitle 5",
           "cards": [
             {"id": 1, "text": "карточка 1"},
             {"id": 2, "text": "карточка 2"},

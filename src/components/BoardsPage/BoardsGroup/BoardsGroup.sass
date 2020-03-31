@@ -2,17 +2,58 @@
   &:not(:last-child)
     margin-bottom: 6rem
     
+  &__title
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 1.6rem
 
-.title 
-  margin-bottom: 1.6rem
-  font-weight: 500
-  font-size: 2.6rem
-  line-height: 3.9rem
+    &-input
+      width: 100%
+      font-weight: 500
+      font-size: 2.6rem
+      line-height: 3.9rem
+      border: none
+      border-bottom: .1rem solid
+
+    &-text
+      font-weight: 500
+      font-size: 2.6rem
+      line-height: 3.9rem
+
+    &-icons
+      display: flex
+      align-items: center
+
+
+    &-icon
+      height: 4rem
+      width: 4rem 
+      padding: 1.25rem
+      margin-left: .7rem
+
+      display: flex
+      align-items: center
+      justify-content: center
+      background-color: #FAFBFC
+      border-radius: 1rem
+      transition: .2s all ease-in-out
+      cursor: pointer
+      opacity: .9
+
+      img
+        transition: .2s all ease-in-out
+        opacity: .4
+
+      &:hover
+        background-color: #EEF1F4
+
+    &:hover
+      .boards-group__title-icon
+        opacity: 1
 
 .boards
   display: flex
   
 .board-wrapper
-  &:not(:last-child)
-    margin-right: 3rem
-    
+  margin-right: 3rem

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import BoardsGroupContainer from './BoardsGroup/BoardsGroupContainer'
+import CreateBoardGroupContainer from './CreateBoardGroup/CreateBoardGroupContainer'
 import './BoardsPage.sass'
 
 const BoardsPage = ({ allBoards }) => {
@@ -11,6 +12,7 @@ const BoardsPage = ({ allBoards }) => {
       {Object.keys(allBoards).map(id => (
         <BoardsGroupContainer key={id} boardsGroupId={id} />
       ))}
+      <CreateBoardGroupContainer />
     </div>
   )
 }

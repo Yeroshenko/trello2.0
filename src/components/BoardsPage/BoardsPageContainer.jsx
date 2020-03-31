@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
-import { setAllBoards } from '../../redux/boards-reducer'
+import { setAllBoards } from '../../redux/all-boards-reducer'
 import BoardsPage from './BoardsPage'
 
 class BoardsPageContainer extends Component {
@@ -15,7 +15,7 @@ class BoardsPageContainer extends Component {
 
 const mapStateToProps = state => {
   return {
-    allBoards: state.boardsReducer.allBoards
+    allBoards: state.allBoardsReducer
   }
 }
 
